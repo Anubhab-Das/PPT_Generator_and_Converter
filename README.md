@@ -1,6 +1,6 @@
 # 📌 PPT_Generator_and_Converter
 
-🚀 AI-powered tool that converts PDFs into structured PowerPoint presentations using LLMs, FastAPI, and Streamlit. Supports automatic image fetching and minimal token usage for efficiency.
+🚀 AI-powered tool that can generate structured PPTs from user's topics, as well as, use LLMs to convert uploaded PDFs into presentable PPTs. Uses Langgraph, FastAPI, and Streamlit. Supports automatic image fetching and minimal token usage for efficiency.
 
 ## 📖 Features
 
