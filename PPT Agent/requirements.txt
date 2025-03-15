@@ -1,0 +1,15 @@
+python-pptx
+llama-index
+python-dotenv
+requests
+fastapi
+uvicorn
+streamlit
+langgraph
+python-multipart
+pydantic
+typing
+PyMuPDF
+pillow
+docling
+pdfminer.six
