@@ -14,6 +14,27 @@
 
 🎯**I've used a short prompt and haven't asked the LLM to make the PPT very visually appealing. This has been done to minimize token usage, but if you are ready to bear the forthcomings, you are free to use a better model and a more detailed prompt.**
 
+Project Overview:
+An AI-based presentation assistant that generates PowerPoint decks from topic inputs and converts between formats (e.g., text to PPT, PPT to PDF). Useful for creating business-ready slides with minimal manual effort.
+
+Key Features:
+
+Generates slide content using LLMs based on a given topic.
+Converts between different formats (e.g., text → PPT → PDF).
+Includes auto-formatting and layout enhancements for readability.
+Technologies Used:
+
+Languages: Python
+Libraries: python-pptx, ReportLab, PyMuPDF
+AI Tools: OpenAI API (or compatible local LLMs)
+Deployment: Local/Scripted execution
+Workflow:
+
+User enters a topic and optionally selects output format (e.g., PPT or PDF).
+A backend agent structures the slide flow (e.g., title, bullet points, key highlights) using LLMs.
+Slides are generated via python-pptx and optionally converted to PDF.
+Additional formatting such as font size, colors, and alignment is handled programmatically.
+
 ## 🏗 Project Structure
 
 ```
